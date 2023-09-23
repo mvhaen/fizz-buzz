@@ -14,4 +14,8 @@ mod tests {
     fn it_returns_1_for_1() {
         assert_eq!("1", fizz_buzz(1));
     }
+
+    fn it_returns_2_for_2() {
+        assert_eq!("2", fizz_buzz(2));
+    }
 }
