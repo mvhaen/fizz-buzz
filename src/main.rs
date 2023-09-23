@@ -3,13 +3,8 @@ fn main() {
 }
 
 fn fizz_buzz(n: i32) -> String {
-        if n == 1 {
-            return 1.to_string();
-        } else if n == 2 {
-            return 2.to_string();
-        }
-        "".to_string()
-    }
+    n.to_string()
+}
 
 #[cfg(test)]
 mod tests {
