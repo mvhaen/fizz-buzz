@@ -3,6 +3,9 @@ fn main() {
 }
 
 fn fizz_buzz(n: i32) -> String {
+    if n % 3 == 0 {
+        return "Fizz".to_string();
+    }
     n.to_string()
 }
 
@@ -18,5 +21,10 @@ mod tests {
     #[test]
     fn it_returns_2_for_2() {
         assert_eq!("2", fizz_buzz(2));
+    }
+
+    #[test]
+    fn it_returns_fizz_for_3() {
+        assert_eq!("Fizz", fizz_buzz(3));
     }
 }
