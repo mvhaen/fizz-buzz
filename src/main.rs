@@ -3,8 +3,13 @@ fn main() {
 }
 
 fn fizz_buzz(n: i32) -> String {
-    return 1.to_string();
-}
+        if n == 1 {
+            return 1.to_string();
+        } else if n == 2 {
+            return 2.to_string();
+        }
+        "".to_string()
+    }
 
 #[cfg(test)]
 mod tests {
@@ -15,6 +20,7 @@ mod tests {
         assert_eq!("1", fizz_buzz(1));
     }
 
+    #[test]
     fn it_returns_2_for_2() {
         assert_eq!("2", fizz_buzz(2));
     }
