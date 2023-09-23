@@ -3,7 +3,7 @@ fn main() {
 }
 
 fn fizz_buzz(n: i32) -> String {
-    return "".to_string();
+    return 1.to_string();
 }
 
 #[cfg(test)]
