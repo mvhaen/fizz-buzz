@@ -1,5 +1,7 @@
 # Agile Technical Practices Distilled: Fizz Buzz kata
 
+> Note: this is just me running through this kata, while simultaneously learning Rust and experimenting with Github Copilot. I used Copilot to both generate large parts of the implementation and tests, and later refactor. Most the documentation below was also generated with Copilot.
+
 The Fizz Buzz kata is a simple programming exercise that is often used to teach or practice basic programming concepts. The goal of the exercise is to write a program that prints the numbers from 1 to 100, but with some modifications:
 
 - If the number is divisible by 3, print "Fizz" instead of the number.
@@ -10,7 +12,15 @@ The exercise is usually done in a group setting, with participants taking turns 
 
 ## Installation
 
-Make sure you have Rust installed. See `https://www.rust-lang.org/learn/get-started`
+GitHub Copilot: Sure! Rust is a systems programming language that is designed to be fast, safe, and concurrent. It is often used for developing high-performance applications, such as operating systems, web servers, and game engines.
+
+To get started with Rust for this repository, you will need to have Rust and Cargo installed on your machine. Here are the steps to install Rust and Cargo:
+
+1. Go to the Rust website at https://www.rust-lang.org/learn/get-started and follow the instructions for your operating system to install Rust.
+2. Once Rust is installed, open a terminal or command prompt and type `rustc --version` to verify that Rust is installed correctly. You should see a message like "rustc x.y.z (abcabcabc yyyy-mm-dd)".
+3. Next, type `cargo --version` to verify that Cargo is installed. You should see a message like "cargo x.y.z (abcabcabc yyyy-mm-dd)".
+
+That's it! You're now ready to start working with Rust and the Fizz Buzz kata.
 
 ## Running the Program
 
